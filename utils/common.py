@@ -78,7 +78,7 @@ class Common(scrapy.Spider):
     ]
 
     # 获取子频道文章
-    def getSubChannel(self, channel:object|None = None):
+    def getSubChannel(self):
         pass
 
     # 获取主频道文章
