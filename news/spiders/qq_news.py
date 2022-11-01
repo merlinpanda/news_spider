@@ -4,8 +4,8 @@ class QqNewsSpider(Common):
     name = 'qq_news'
 
     def start_requests(self):
-        channel = getattr(self,'channel', None)
-        print('channel', channel)
+        channel = self.channel
+
         pass
 
     def parse(self, response):
